@@ -1,0 +1,156 @@
+body{
+  width: 100%;
+}
+.navbar{
+    
+    /* position: sticky;
+    top: 0;
+    left: 10%;  
+    z-index: 1; */
+
+    /* background-color: white; */
+      
+      position: sticky !important;
+      top: 0;
+      left: 10%;
+      z-index: 1;
+      /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+}
+
+
+ .collapse{
+    color: black;
+    font-weight: bold;
+  
+    
+    
+} 
+.booking{
+    position: relative;
+    right: 10%;
+  
+}
+/* .slider-img{
+    background-image: url(/img/3.jpg);
+    height: 600px;
+    background-size: cover;
+} */
+.slider-img img{
+background-size:cover;
+width: 100%;
+height: 600px;
+position: relative;
+
+}
+.getbutton{
+  
+    position: relative;
+    left: 3%;
+}
+
+.blurimg{
+    background-image: url('./img/3.jpg');
+    /* background-color: rgba(0, 0, 255, 0.541); */
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: sticky;
+    
+    
+}
+.blur{
+    background-color: rgba(53, 53, 126, 0.718);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    /* position: sticky; */
+}
+.table1{
+    width: 85%;
+      height: 110%;
+
+      float: left;
+      margin-top: 110px;
+      position: absolute;
+
+      left: 120px;
+}
+table thead tr>th {
+    background-color: #00aeef;
+    color: #ffffff;
+    border: 1px solid white;
+  }
+
+
+  th:first-child,
+  td:first-child {
+    width: 55%;
+
+  }
+
+  th {
+
+    margin-left: 20px;
+    padding: 15px 25px;
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+    background-color: #f4f4f4;
+    font-weight: 600;
+    color: #707070;
+    text-align: justify
+  }
+
+  td {
+
+    border-radius: 3px;
+    border: 2px solid #ffffff;
+    background-color: #f4f4f4;
+    font-weight: 600;
+    color: #707070;
+    text-align: justify;
+    padding-left: 25px;
+  }
+
+
+  .blurimg2{
+    background-image: url(./img/5.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: sticky;
+  }
+
+  .blur2{
+    background-color: rgba(53, 53, 126, 0.718);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .reviewimg{
+    background-image: url(./img/9.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+  .reviewblur{
+    background-color: rgba(53, 53, 126, 0.718);
+    height:500px;
+    width: 100%;
+    background-size: cover;
+  }
+
+
+  .footer{
+    background-image: url("./img/14.jpg");
+    background-size: cover;
+    width: auto;
+    height: 500px;
+  }
+  .footer_blur{
+    background-color: rgba(53, 53, 126, 0.718);
+    height:500px;
+    width: auto;
+    background-size: cover;
+
+  }
